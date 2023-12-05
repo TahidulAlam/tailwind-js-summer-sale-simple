@@ -1,0 +1,244 @@
+<!doctype html>
+<html data-theme="light">
+mrin-1
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="bg-orange-100">
+        <div class="hero-banner grid lg:grid-cols-2  grid-cols-1 w-[90%] mx-auto p-5">
+            <div
+                class="hero-banner-content lg:order-1 order-2 flex flex-col justify-center items-center lg:gap-7 gap-4 md:py-6">
+                <h1 class="text-center lg:text-2xl text-xl font-semibold">---SALE FEVER---</h1>
+                <p class="text-center lg:text-5xl text-3xl font-bold">Purchase TK 200 or <br> above & get <span
+                        class="text-pink-600">20% off</span></p>
+                <div class="hero-banner-promo-code text-center flex justify-center gap-2 items-center">
+                    <p class="font-semibold">Use Promo Code</p>
+                    <button class=" bg-pink-600 px-4 py-1 rounded-lg font-semibold text-white">SELL200</button>
+                </div>
+            </div>
+            <div class="hero-banner-img order-1">
+                <div class="hero-img lg:h-5/6 h-4/6 lg:w-5/6 w-4/6 mx-auto">
+                    <img src="./images/Summer 1.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class=" bg-slate-100 pb-10">
+        <div class="product-cart lg:w-[85%] lg:mx-auto grid lg:grid-cols-7 grid-cols-1 lg:pt-10 pt-4 gap-5">
+            <div class="all-product lg:col-span-5 lg:order-1 order-2">
+                <h1 class="text-4xl text-center lg:text-left font-bold py-5">Kitchenware</h1>
+                <div
+                    class="cursor-pointer grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 w-[75%] lg:w-[100%] md:w-[100%] mx-auto gap-2">
+                    <div onclick="addtoCart(this)" onclick="addtoCart(this)"
+                        class="product-card bg-white w-full text-center flex flex-col justify-center rounded-lg p-3 gap-2">
+                        <div class="product-img bg-slate-100 flex justify-center">
+                            <img src="./images/prod1.png" alt="" srcset="" class="p-3 h-auto w-auto">
+                        </div>
+                        <div class="ratings">
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                        </div>
+                        <h1 class="font-bold">K. Accessories</h1>
+                        <p class="text-slate-500"><span>39.00</span> TK</p>
+                    </div>
+                    <div onclick="addtoCart(this)"
+                        class="product-card bg-white w-full text-center flex flex-col justify-center rounded-lg p-3 gap-2">
+                        <div class="product-img bg-slate-100 flex justify-center">
+                            <img src="./images/prod2.png" alt="" srcset="" class="p-3 h-auto w-auto">
+                        </div>
+                        <div class="ratings">
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa-regular fa-star text-yellow-500"></i>
+                        </div>
+                        <h1 class="font-bold">K. Accessories</h1>
+                        <p class="text-slate-500"><span>25.00</span> TK</p>
+
+                    </div>
+                    <div onclick="addtoCart(this)"
+                        class="product-card bg-white w-full text-center flex flex-col justify-center rounded-lg p-3 gap-2">
+                        <div class="product-img bg-slate-100 flex justify-center">
+                            <img src="./images/prod3.png" alt="" srcset="" class="p-3 h-auto w-auto">
+                        </div>
+                        <div class="ratings">
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa-regular fa-star text-yellow-500"></i>
+                            <i class="fa-regular fa-star text-yellow-500"></i>
+                        </div>
+                        <h1 class="font-bold">Home Cooker</h1>
+                        <p class="text-slate-500"><span>49.00</span> TK</p>
+                    </div>
+                </div>
+                <h1 class="text-4xl text-center lg:text-left font-bold py-5">Sportswear</h1>
+                <div
+                    class="cursor-pointer grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 w-[75%] lg:w-[100%]  md:w-[100%]  mx-auto gap-2">
+                    <div onclick="addtoCart(this)"
+                        class="product-card bg-white w-full text-center flex flex-col justify-center rounded-lg p-3 gap-2">
+                        <div class="product-img bg-slate-100 flex justify-center">
+                            <img src="./images/prod4.png" alt="" srcset="" class="p-3 h-auto w-auto">
+                        </div>
+                        <div class="ratings">
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                        </div>
+                        <h1 class="font-bold">Sports Back Cap</h1>
+                        <p class="text-slate-500"><span>49.00</span> TK</p>
+                    </div>
+                    <div onclick="addtoCart(this)"
+                        class="product-card bg-white w-full text-center flex flex-col justify-center rounded-lg p-3 gap-2">
+                        <div class="product-img bg-slate-100 flex justify-center">
+                            <img src="./images/prod5.png" alt="" srcset="" class="p-3 h-auto w-auto">
+                        </div>
+                        <div class="ratings">
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa-regular fa-star text-yellow-500"></i>
+                        </div>
+                        <h1 class="font-bold">Full Jersey Set</h1>
+                        <p class="text-slate-500"><span>69.00</span> TK</p>
+
+                    </div>
+                    <div onclick="addtoCart(this)"
+                        class="product-card bg-white w-full text-center flex flex-col justify-center rounded-lg p-3 gap-2">
+                        <div class="product-img bg-slate-100 flex justify-center">
+                            <img src="./images/prod6.png" alt="" srcset="" class="p-3 h-auto w-auto">
+                        </div>
+                        <div class="ratings">
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa-regular fa-star text-yellow-500"></i>
+                            <i class="fa-regular fa-star text-yellow-500"></i>
+                        </div>
+                        <h1 class="font-bold">Sports cates</h1>
+                        <p class="text-slate-500"><span>159.00</span> TK</p>
+                    </div>
+                </div>
+                <h1 class="text-4xl text-center lg:text-left font-bold py-5">Furniture</h1>
+                <div
+                    class="cursor-pointer grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 w-[75%] lg:w-[100%]  md:w-[100%]  mx-auto gap-2">
+                    <div onclick="addtoCart(this)"
+                        class="product-card bg-white w-full text-center flex flex-col justify-center rounded-lg p-3 gap-2">
+                        <div class="product-img bg-slate-100 flex justify-center">
+                            <img src="./images/prod7.png" alt="" srcset="" class="p-3 h-auto w-auto">
+                        </div>
+                        <div class="ratings">
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa-regular fa-star text-yellow-500"></i>
+                            <i class="fa-regular fa-star text-yellow-500"></i>
+                        </div>
+                        <h1 class="font-bold">Single Relax Chair</h1>
+                        <p class="text-slate-500"><span>185.00</span> TK</p>
+                    </div>
+                    <div onclick="addtoCart(this)"
+                        class="product-card bg-white w-full text-center flex flex-col justify-center rounded-lg p-3 gap-2">
+                        <div class="product-img bg-slate-100 flex justify-center">
+                            <img src="./images/prod8.png" alt="" srcset="" class="p-3 h-auto w-auto">
+                        </div>
+                        <div class="ratings">
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa-regular fa-star text-yellow-500"></i>
+                        </div>
+                        <h1 class="font-bold">Children play</h1>
+                        <p class="text-slate-500"><span>299.00</span> TK</p>
+
+                    </div>
+                    <div onclick="addtoCart(this)"
+                        class="product-card bg-white w-full text-center flex flex-col justify-center rounded-lg p-3 gap-2">
+                        <div class="product-img bg-slate-100 flex justify-center">
+                            <img src="./images/prod3.png" alt="" srcset="" class="p-3 h-auto w-auto">
+                        </div>
+                        <div class="ratings">
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa fa-star text-yellow-500"></i>
+                            <i class="fa-regular fa-star text-yellow-500"></i>
+                            <i class="fa-regular fa-star text-yellow-500"></i>
+                        </div>
+                        <h1 class="font-bold">Flexible Sofa</h1>
+                        <p class="text-slate-500"><span>339.00</span> TK</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cart lg:col-span-2 pt-10 mt-9 order-2 mb-10">
+                <div
+                    class="coupon-apply bg-white rounded-lg p-5 mb-3 flex flex-col lg:justify-start lg:items-start items-center">
+                    <h1 class="font-semibold py-3">Have coupon?</h1>
+                    <div class="coupon-input">
+                        <input type="text" name="coupon" id="couponCode" placeholder="Coupon code"
+                            class="p-2 rounded-l-lg" disabled><button
+                            class="p-2 rounded-r-lg bg-slate-500 font-semibold text-white" id="couponBtn"
+                            disabled>Apply</button>
+                    </div>
+                </div>
+                <div class="product-items  bg-white rounded-lg p-5">
+                    <div id="product-list" class="p-2">
+
+                    </div>
+                    <hr>
+                    <div class="price-calculation py-5 flex md:flex md:justify-around lg:flex-col gap-3">
+                        <p id="totalPrice" class="font-semibold">Total price: <span class="text-slate-500"
+                                id="total-price">00.00</span><span class=" text-slate-500">TK</span>
+                        </p>
+                        <p class="font-semibold">Discount: <span class="text-slate-500"
+                                id="total-discount">00.00</span><span class=" text-slate-500">TK</span>
+                        </p>
+                        <p class="font-semibold">Total: <span class="text-slate-500" id="total">00.00</span><span
+                                class=" text-slate-500">TK</span></p>
+                    </div>
+                    <hr class="py-4">
+
+                </div>
+                <div class="text-center flex justify-center items-center lg:-mt-1 mb-5">
+
+                    <button id="makePerchese"
+                        class="bg-slate-500 text-center px-20 whitespace-nowrap text-lg py-4 rounded-lg font-semibold text-white absolute"
+                        onclick="my_modal_5.showModal()" disabled>Make
+                        Purchase</button>
+                    <dialog id="my_modal_5" class="modal modal-middle p-10 rounded-xl">
+                        <form method="dialog" class="modal-box flex flex-col justify-center items-center">
+                            <img src="./images/congo.png" alt="" srcset="">
+                            <h1 class="text-center lg:text-5xl text-4xl font-bold">Congratulations</h1>
+                            <p class="text-slate-600 py-4">Your Purchase the product</p>
+                            <div class="modal-action py-3">
+                                <button id="goHome"
+                                    class=" bg-pink-600 px-4 py-2 rounded-lg font-semibold text-white">Go Home</button>
+                            </div>
+                        </form>
+                    </dialog>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
